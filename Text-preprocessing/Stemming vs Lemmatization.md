@@ -26,12 +26,13 @@
   print(stemmer.stem("running"))  # run
 
   ```
--**LancasterStemmer: (more aggressive stemming)**
+- **LancasterStemmer: (more aggressive stemming)**
 
-  ```python
+   ```python
   from nltk.stem import LancasterStemmer
   stemmer = LancasterStemmer()
   print(stemmer.stem("running"))  # run
+
   ```
 - **WordNetLemmatizer: (uses POS tag)**
 
