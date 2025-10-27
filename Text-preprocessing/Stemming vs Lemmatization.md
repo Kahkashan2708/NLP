@@ -24,3 +24,21 @@
   from nltk.stem import PorterStemmer
   stemmer = PorterStemmer()
   print(stemmer.stem("running"))  # run
+
+  ```
+-**LancasterStemmer: (more aggressive stemming)**
+
+  ```python
+  from nltk.stem import LancasterStemmer
+  stemmer = LancasterStemmer()
+  print(stemmer.stem("running"))  # run
+  ```
+- **WordNetLemmatizer: (uses POS tag)**
+
+   ```python
+  from nltk.stem import WordNetLemmatizer
+  lemmatizer = WordNetLemmatizer()
+  print(lemmatizer.lemmatize("running", pos='v'))  # run
+
+   ```
+
