@@ -122,10 +122,16 @@ print(out)
 
 ```
 
-### 🗣️ Explain:
+🗣️ **Explain:**
 
 - **`input_ids`** → Token IDs  
 - **`attention_mask`** → `1` for real tokens, `0` for pads
+
+| Key | Description |
+|-----|--------------|
+| `input_ids` | Token IDs — numerical representation of tokens |
+| `attention_mask` | `1` for real tokens, `0` for padding tokens |
+
 
 ---
 
